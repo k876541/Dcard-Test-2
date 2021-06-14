@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D418930B2675084D00EC3458 /* SearchBarCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D418930A2675084D00EC3458 /* SearchBarCollectionReusableView.swift */; };
 		D431681B2669EBB000BE3D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431681A2669EBB000BE3D36 /* AppDelegate.swift */; };
 		D431681D2669EBB000BE3D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431681C2669EBB000BE3D36 /* SceneDelegate.swift */; };
-		D431681F2669EBB000BE3D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431681E2669EBB000BE3D36 /* ViewController.swift */; };
 		D43168222669EBB000BE3D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43168202669EBB000BE3D36 /* Main.storyboard */; };
 		D43168242669EBB200BE3D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43168232669EBB200BE3D36 /* Assets.xcassets */; };
 		D43168272669EBB200BE3D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43168252669EBB200BE3D36 /* LaunchScreen.storyboard */; };
+		D431682F2669EF9200BE3D36 /* DcardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431682E2669EF9200BE3D36 /* DcardCollectionViewController.swift */; };
+		D43168312669EFB900BE3D36 /* Dcard-mainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43168302669EFB900BE3D36 /* Dcard-mainCollectionViewCell.swift */; };
+		D43168332669F04E00BE3D36 /* DcardMain-DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43168322669F04E00BE3D36 /* DcardMain-DataBase.swift */; };
+		D431683A266DEF8000BE3D36 /* Forums Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4316839266DEF8000BE3D36 /* Forums Data.swift */; };
+		D431683C266E032800BE3D36 /* ForumsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431683B266E032800BE3D36 /* ForumsCollectionViewController.swift */; };
+		D431683E266E033800BE3D36 /* ForumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D431683D266E033800BE3D36 /* ForumsCollectionViewCell.swift */; };
+		D4E9362126708DAE00588E35 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362026708DAE00588E35 /* PostDetailTableViewController.swift */; };
+		D4E9362326708E0600588E35 /* PostDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362226708E0600588E35 /* PostDetailTableViewCell.swift */; };
+		D4E9362526708E5A00588E35 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362426708E5A00588E35 /* PostDetail.swift */; };
+		D4E9362726708E7100588E35 /* comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362626708E7100588E35 /* comments.swift */; };
+		D4E9362B26713C3B00588E35 /* ContentViewV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362A26713C3B00588E35 /* ContentViewV.swift */; };
+		D4E9362D2671DB3900588E35 /* NSMutableAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362C2671DB3900588E35 /* NSMutableAttributedString+Extensions.swift */; };
+		D4E9362F2671DB4800588E35 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E9362E2671DB4800588E35 /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D418930A2675084D00EC3458 /* SearchBarCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCollectionReusableView.swift; sourceTree = "<group>"; };
 		D43168172669EBB000BE3D36 /* Dcard-Test 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dcard-Test 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D431681A2669EBB000BE3D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D431681C2669EBB000BE3D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D431681E2669EBB000BE3D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D43168212669EBB000BE3D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D43168232669EBB200BE3D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43168262669EBB200BE3D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43168282669EBB200BE3D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D431682E2669EF9200BE3D36 /* DcardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardCollectionViewController.swift; sourceTree = "<group>"; };
+		D43168302669EFB900BE3D36 /* Dcard-mainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dcard-mainCollectionViewCell.swift"; sourceTree = "<group>"; };
+		D43168322669F04E00BE3D36 /* DcardMain-DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DcardMain-DataBase.swift"; sourceTree = "<group>"; };
+		D4316839266DEF8000BE3D36 /* Forums Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Forums Data.swift"; sourceTree = "<group>"; };
+		D431683B266E032800BE3D36 /* ForumsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumsCollectionViewController.swift; sourceTree = "<group>"; };
+		D431683D266E033800BE3D36 /* ForumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4E9362026708DAE00588E35 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		D4E9362226708E0600588E35 /* PostDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewCell.swift; sourceTree = "<group>"; };
+		D4E9362426708E5A00588E35 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
+		D4E9362626708E7100588E35 /* comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comments.swift; sourceTree = "<group>"; };
+		D4E9362A26713C3B00588E35 /* ContentViewV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewV.swift; sourceTree = "<group>"; };
+		D4E9362C2671DB3900588E35 /* NSMutableAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		D4E9362E2671DB4800588E35 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +84,50 @@
 			children = (
 				D431681A2669EBB000BE3D36 /* AppDelegate.swift */,
 				D431681C2669EBB000BE3D36 /* SceneDelegate.swift */,
-				D431681E2669EBB000BE3D36 /* ViewController.swift */,
 				D43168202669EBB000BE3D36 /* Main.storyboard */,
+				D4316836266DEF2500BE3D36 /* Model */,
+				D4316837266DEF3800BE3D36 /* View Controller */,
+				D4316838266DEF4A00BE3D36 /* View */,
 				D43168232669EBB200BE3D36 /* Assets.xcassets */,
+				D4E9362C2671DB3900588E35 /* NSMutableAttributedString+Extensions.swift */,
+				D4E9362E2671DB4800588E35 /* UIImage+Extensions.swift */,
 				D43168252669EBB200BE3D36 /* LaunchScreen.storyboard */,
 				D43168282669EBB200BE3D36 /* Info.plist */,
 			);
 			path = "Dcard-Test 2";
+			sourceTree = "<group>";
+		};
+		D4316836266DEF2500BE3D36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4316839266DEF8000BE3D36 /* Forums Data.swift */,
+				D43168322669F04E00BE3D36 /* DcardMain-DataBase.swift */,
+				D4E9362426708E5A00588E35 /* PostDetail.swift */,
+				D4E9362626708E7100588E35 /* comments.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4316837266DEF3800BE3D36 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D431683B266E032800BE3D36 /* ForumsCollectionViewController.swift */,
+				D431682E2669EF9200BE3D36 /* DcardCollectionViewController.swift */,
+				D4E9362026708DAE00588E35 /* PostDetailTableViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D4316838266DEF4A00BE3D36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D431683D266E033800BE3D36 /* ForumsCollectionViewCell.swift */,
+				D418930A2675084D00EC3458 /* SearchBarCollectionReusableView.swift */,
+				D43168302669EFB900BE3D36 /* Dcard-mainCollectionViewCell.swift */,
+				D4E9362226708E0600588E35 /* PostDetailTableViewCell.swift */,
+				D4E9362A26713C3B00588E35 /* ContentViewV.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +200,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D431681F2669EBB000BE3D36 /* ViewController.swift in Sources */,
+				D43168312669EFB900BE3D36 /* Dcard-mainCollectionViewCell.swift in Sources */,
+				D4E9362326708E0600588E35 /* PostDetailTableViewCell.swift in Sources */,
 				D431681B2669EBB000BE3D36 /* AppDelegate.swift in Sources */,
+				D4E9362526708E5A00588E35 /* PostDetail.swift in Sources */,
+				D4E9362D2671DB3900588E35 /* NSMutableAttributedString+Extensions.swift in Sources */,
+				D418930B2675084D00EC3458 /* SearchBarCollectionReusableView.swift in Sources */,
+				D4E9362B26713C3B00588E35 /* ContentViewV.swift in Sources */,
+				D4E9362126708DAE00588E35 /* PostDetailTableViewController.swift in Sources */,
+				D4E9362726708E7100588E35 /* comments.swift in Sources */,
+				D43168332669F04E00BE3D36 /* DcardMain-DataBase.swift in Sources */,
 				D431681D2669EBB000BE3D36 /* SceneDelegate.swift in Sources */,
+				D431682F2669EF9200BE3D36 /* DcardCollectionViewController.swift in Sources */,
+				D431683E266E033800BE3D36 /* ForumsCollectionViewCell.swift in Sources */,
+				D4E9362F2671DB4800588E35 /* UIImage+Extensions.swift in Sources */,
+				D431683C266E032800BE3D36 /* ForumsCollectionViewController.swift in Sources */,
+				D431683A266DEF8000BE3D36 /* Forums Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
